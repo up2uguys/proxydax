@@ -1,0 +1,14 @@
+{
+  "name": "proxydax",
+  "version": "1.0.0",
+  "description": "Proxy API untuk Indodax di Vercel",
+  "main": "api/proxy.js",
+  "scripts": {
+    "start": "node api/proxy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "request": "^2.88.2",
+    "cors": "^2.8.5"
+  }
+}
